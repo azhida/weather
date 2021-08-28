@@ -1,0 +1,30 @@
+{
+    "name": "azhida\/weather",
+    "description": "A weather SDK",
+    "license": "MIT",
+    "require": {
+        "guzzlehttp/guzzle": "^7.3"
+    },
+    "authors": [
+        {
+            "name": "azhida",
+            "email": "334064034@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Azhida\\Weather\\": "src"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "mockery/mockery": "^1.4"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Azhida\\Weather\\ServiceProvider"
+            ]
+        }
+    }
+}

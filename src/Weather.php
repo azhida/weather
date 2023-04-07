@@ -1,6 +1,17 @@
 <?php
 
+/*
+ * This file is part of the azhida/weather.
+ *
+ * (c) azhida <i@azhida.me>
+ *
+ * This source file is subject to the MIT license that is bundled
+ * with this source code in the file LICENSE.
+ *
+ */
+
 namespace Azhida\Weather;
+
 use GuzzleHttp\Client;
 use Azhida\Weather\Exceptions\HttpException;
 use Azhida\Weather\Exceptions\InvalidArgumentException;
@@ -51,7 +62,7 @@ class Weather
             'key' => $this->key,
             'city' => $city,
             'output' => \strtolower($format),
-            'extensions' =>  \strtolower($type),
+            'extensions' => \strtolower($type),
         ]);
 
         try {

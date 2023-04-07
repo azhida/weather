@@ -1,6 +1,6 @@
 <h1 align="center"> weather </h1>
 
-<p align="center"> A weather SDK.</p>
+<p align="center"> 天气 SDK.</p>
 
 
 ## Installing
